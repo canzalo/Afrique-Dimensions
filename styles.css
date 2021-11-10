@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  url('/assets/bg1.jpg') no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    background: transparent;
+}
+
+.nav-container > div{
+    float: left;
+    position: top;
+    padding: 15px ;
+   
+}
+img .logo{
+    float: left;
+    top:0;
+    padding: 0;
+}
+.nav-container > div a{
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+.nav-container > div:hover{
+    background: rgb(84, 90, 97);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.intro-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: transparent;
+}
+
+div .mission{
+    width: 40%;
+    max-height: 500px;
+    background: linear-gradient(to right,gray,beige);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+div .mission:hover{
+    background-color: bisque;
+}
+div .vision{
+    margin-left: 20px;
+    padding: 20px;
+    width: 40%;
+    max-height: 500px;
+    background: rgb(131, 9, 245);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div .vision:hover{
+    background-color: burlywood;
+}
+.mission h2, .vision h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.services{
+    max-width: 450px;
+    max-height: 500px; 
+    background: transparent;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.services  li{
+    font-size: 18px;
+    font-family: monospace ;
+    font-weight: bold;
+    list-style: inside disc;
+    background: inherit;
+    list-style: none;
+}
+
+ #about{
+    background: rgb(22, 32, 36);/*url('/assets/side.jpg') skyblue ;*/
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    color: #00FFFF;
+    height: 200px; 
+    width: 300px; 
+    border: none; 
+    padding: 15px;
+    margin: auto;
+}
+#contact{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+#contact button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.partners-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+}
